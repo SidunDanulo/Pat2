@@ -1,4 +1,3 @@
-lst = [0, 5, 2, 7, 0, 9, 8, 0]
-non_zero = [x for x in lst if x != 0]
-result = non_zero + [0] * (len(lst) - len(non_zero))
-print(result)
+def say_hi(name: str, age: int) -> str:
+    return f"Hi. My name is {name} and I'm {age} years old."
+print(say_hi("Alice", 30))
